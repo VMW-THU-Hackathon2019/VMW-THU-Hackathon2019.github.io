@@ -26,16 +26,35 @@ table.gridtable td {
 }
 </style>
 
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .imgbox {
+        display: grid;
+        height: 100%;
+    }
+    .center-fit {
+        max-width: 85%;
+        max-height: 85vh;
+        margin: auto;
+    }
+</style>
+
 <h2><center>2019年8月13日至25日</center></h2>
 <h2><center>中国，北京</center></h2>
-<p>
+<br>
+<br>
 <h1><center>1. 竞赛规则</center></h1>
-<div center>
-<img src="competitonrule.png">	
+<hr>
+<div class="imgbox">
+	<img class="center-fit" src="competitonrule.png"/>
 </div>
 <p>
 <h1><center>2. 竞赛题目</center></h1>
-
+<hr>
+<br>
 <!-- Table goes in the document BODY -->
 <div align=center>
 <table class="gridtable">
@@ -45,30 +64,30 @@ table.gridtable td {
 <tr>
 	<td>#1</td><td>AI技术趋势分析与展示</td><td>1. 针对提供的ArXiv网站论文集数据，编写程序自动遴选出AI/ML主题的论文集合<br />
 2. 针对遴选出的AI/ML主题的论文集合进行分析，编写程序自动提取AI/ML相关的技术关键词，如“deep learning”或“random forest”等<br />
-3. 编写程序分析并采用数据可视化方法展示上述AI/ML技术关键词，随时间变化的趋势</td><td>TBD</td><td>TBD</td>
+3. 编写程序分析并采用数据可视化方法展示上述AI/ML技术关键词，随时间变化的趋势</td><td>TODO</td><td>TODO</td>
 </tr>
 <tr>
 	<td>#2</td><td>开源软件项目主题自动提取</td><td>1. 在提供的开源软件数据集中挑选某个特定开源软件项目，通过程序计算出其主题<br />
 2. 编写程序，在提供的开源软件数据集中搜寻与该开源软件项目类似主题的项目<br />
-3. 编写程序分析并以数据可视化方式展示上述项目的主题相似度</td><td>TBD</td><td>TBD</td>
+3. 编写程序分析并以数据可视化方式展示上述项目的主题相似度</td><td>TODO</td><td>TODO</td>
 </tr>
 <tr>
 	<td>#3</td><td>代码审查候选人推荐</td><td>1. 作为软件质量保证的关键环节，代码评审是软件研发过程中的一个极为重要的环节<br />
 2. 在现代软件开发过程中，代码评审组织一般需要人为地指定评审者（评审者应具备足够的技术能力来完成该工作）<br />
-3. 本项目希望能从提供的代码评审历史数据集中，编写程序自动分析出某特定评审任务所需技能，并推荐候选评审者</td><td>TBD</td><td>TBD</td>
+3. 本项目希望能从提供的代码评审历史数据集中，编写程序自动分析出某特定评审任务所需技能，并推荐候选评审者</td><td>TODO</td><td>TODO</td>
 </tr>
 <tr>
 	<td>#4</td><td>软件缺陷自动预测</td><td>1. 编写程序分析所提供的软件缺陷与其它软件工程度量数据集，建立软件缺陷与其它度量参数之间的量化模型<br />
-2. 采用上述模型，编写程序对某个软件项目进行自动缺陷预测</td><td>TBD</td><td>TBD</td>
+2. 采用上述模型，编写程序对某个软件项目进行自动缺陷预测</td><td>TODO</td><td>TODO</td>
 </tr>
 <tr>
 	<td>#5</td><td>AI领域专利结构分析</td><td>1. 编写程序分析提供的AI领域美国国家专利数据集，找出专利间的引用与依赖关系<br />
-2. 以数据可视化方法展示上述关系</td><td>TBD</td><td>TBD</td>
+2. 以数据可视化方法展示上述关系</td><td>TODO</td><td>TODO</td>
 </tr>
 <tr>
 	<td>#6</td><td>问答网站语义相似度分析</td><td>1. 使用给定的Quora问题数据集，通过机器学习方法挖掘数据特征并搭建出语义相似度模型<br />
 2. 使用测试数据集评测模型效果<br />
-3. 鼓励尝试使用多种机器学习算法分别搭建模型并进行参数调优以获得最优模型</td><td>TBD</td><td>TBD</td>
+3. 鼓励尝试使用多种机器学习算法分别搭建模型并进行参数调优以获得最优模型</td><td>TODO</td><td>TODO</td>
 </tr>
 </table>
 </div>
